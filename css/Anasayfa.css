@@ -1,0 +1,72 @@
+
+
+.owl-carousel .item {
+
+     width: 1000px;
+     height: 400px;
+     margin-left: auto;
+     margin-right: auto;
+
+ }
+
+ .owl-carousel {
+     margin-top: 100px;
+ }
+
+ .pricing-header {
+     margin-top: 100px;
+ }
+
+ .pricing-header p {
+
+     margin-top: 50px;
+ }
+.row{
+    margin-top: 100px;
+
+    
+}
+
+.row p{
+    margin-top: 50px;
+}
+.row h2{
+    margin-top: 20px;
+}
+#row{
+    border-top: 1px solid #4c566a;
+    
+}
+.jumbotron{
+    border-top: 1px solid #4c566a;
+    margin-top: 100px;
+  
+
+}
+#jumbotron{
+    background-color: #eceff4;
+}
+#h-100{
+    margin-top: 100px;
+}
+.col-lg-4{
+    margin-top: 100px;
+}
+#top
+{
+    margin-top: 100px;
+}
+.blog-footer{
+    margin-top: 50px;
+    background-color:#dcdfe4;
+    opacity: 0.7;
+    height: 230px;
+   
+}
+#navbar{
+    background-color: #eceff4;
+}
+
+
+
+
