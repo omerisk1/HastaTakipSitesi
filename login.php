@@ -34,11 +34,12 @@
 </style>
 
 <body>
+   
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow" id="navbar">
         <img src="img/logo.png" alt="logo">
         <h5 class="my-0 mr-md-auto font-weight-normal">Hasta Takip Programı</h5>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="Homepage.html">Anasayfa</a>
+            <a class="p-2 text-dark" href="homepage.php">Anasayfa</a>
 
 
         </nav>
@@ -58,7 +59,7 @@
                         <li class="cardtext">Değerli doktorlarımız, size ayrılan bu kısımdan sisteme giriş yapabilmektesiniz.</li>
 
                     </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary btn1" onclick="window.location.href = 'doktorLogin.html';">Doktor Giriş Ekranı İçin Tıklayınız.</button>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary btn1" onclick="window.location.href = 'doktorLogin.php';">Doktor Giriş Ekranı İçin Tıklayınız.</button>
                 </div>
             </div>
             <div class="card mb-4 box-shadow">
@@ -71,7 +72,7 @@
                         <li class="cardtext">Değerli hastalarımız, size ayrılan bu kısımdan sisteme giriş yapabilmektesiniz.</li>
 
                     </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary btn1" onclick="window.location.href = 'hastaLogin.html';">Hasta Giriş Ekranı İçin Tıklayınız.</button>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary btn1" onclick="window.location.href = 'hastaLogin.php';">Hasta Giriş Ekranı İçin Tıklayınız.</button>
                 </div>
             </div>
 

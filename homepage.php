@@ -27,7 +27,7 @@
 
 
             </nav>
-            <a class="btn btn-outline-primary" href="Login.html">Giriş Yap</a>
+            <a class="btn btn-outline-primary" href="login.php">Giriş Yap</a>
         </div>
 
         <div class="container py-4">
