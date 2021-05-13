@@ -14,10 +14,10 @@ if( $_POST ){
            header("Location:hastaEkran.php");
            die();
        }
-   else {
+       else {
         header("Location:hastaLogin.php?error=1");
         die();
-    }
+       }
     
 }
 
@@ -38,14 +38,20 @@ if( $_POST ){
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+         #navbar{
+         background-color: #000;
+         opacity:0.9;
+    }
+    </style>
 </head>
 
 <body>
-     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow" id="navbar">
+     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow text-white" id="navbar">
         <img src="img/logo.png" alt="logo">
         <h5 class="my-0 mr-md-auto font-weight-normal">Hasta Takip Programı</h5>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="homepage.php">Anasayfa</a>
+            <a class="p-2 text-white" href="homepage.php">Anasayfa</a>
         </nav>
         
     </div>
@@ -65,7 +71,7 @@ if( $_POST ){
                     </div>
                     <div class="div">
                         <h5></h5>
-                        <input type="text" class="input"  name="kullaniciad" required="">
+                        <input type="text" class="input"  name="kullaniciad" required="" autocomplete="off">
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -74,7 +80,7 @@ if( $_POST ){
                     </div>
                     <div class="div">
                         <h5></h5>
-                        <input type="password" class="input"  name="sifre" required="">
+                        <input type="password" class="input"  name="sifre" required="" autocomplete="off">
                     </div>
                 </div>
               
@@ -86,9 +92,8 @@ if( $_POST ){
                 <?php
                 if ( isset($_GET['error']) ): ?>
                 <div class="alert alert-danger"> Kullanıcı adı ve şifre hatalı!</div>
-                
                 <?php endif ?>
-                  <?php if ( isset($_GET['success'] )): ?>
+                <?php if ( isset($_GET['success'] )): ?>
                 <div class="alert alert-success"> Kayıt İşleminiz Başarı ile Tamamlandı.</div>
                 <?php endif ?>
             </form>

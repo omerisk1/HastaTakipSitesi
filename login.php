@@ -11,12 +11,21 @@
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 </head>
 <style>
+    body{
+       
+        background-image: url("img/d2.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size : cover;
+        opacity: 0.9;
+    }
     .card-header {
         background-color: #4094b3;
     }
 
     .card-body {
-        background-color: #fff;
+        background-color: #e9ecef;
     }
 
     .btn1 {
@@ -24,10 +33,23 @@
     }
     .cardtext{
     font-size:18px;
-}
+    }
     .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    }
+    
+    #navbar{
+         background-color: #000;
+         opacity:0.9;
+    } 
+
+    .blog-footer{
+    margin-top: 220px;
+    background-color:#000;
+    opacity: 0.9;
+    height: 234px;
+
     }
     
 
@@ -35,16 +57,19 @@
 
 <body>
    
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow" id="navbar">
-        <img src="img/logo.png" alt="logo">
-        <h5 class="my-0 mr-md-auto font-weight-normal">Hasta Takip Programı</h5>
-        <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="homepage.php">Anasayfa</a>
-
-
-        </nav>
-        <a class="btn btn-outline-primary" href="#">Giriş Yap</a>
-    </div>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top " id="navbar">
+      <a href=""><img src="img/logo.png" alt="doktorlogo"></a>
+      <a class="navbar-brand" href="#">Hasta Takip Programı</a>
+      
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+            <a class="p-2 text-white" href="homepage.php">Anasayfa</a> &nbsp;&nbsp; 
+            <a class="btn btn-success my-2 my-sm-0" type="submit" href="login.php">Sisteme Giriş</a>
+        </form>
+      </div>
+    </nav>
     <div class="container py-4 up">
 
 
@@ -80,7 +105,7 @@
 
     </div>
 
-    <footer class="blog-footer text-center">
+    <footer class="blog-footer text-center text-white">
         <br>
         <br>
         <p><img src="img/footerlogo.png" alt="footerlogo"> Hasta Takip Programı</p>

@@ -9,9 +9,7 @@ if($_POST){
     $kullaniciad,
     $sifre
     ));
-    
     header("Location:hastaLogin.php?success=1");
-    
 } 
 
 ?>
@@ -31,24 +29,36 @@ if($_POST){
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+    #navbar{
+        background-color: #424242;
+    }
         .login-content{
             margin-top: 100px;
             margin-left: 350px;
             border-style: ridge;
             border-radius: 15px;
             height: 650px;
-            background-color: #eceff4;
+            background-color: #a5d8ff;
        
         }
+        body{
+            
+            background-image: url("img/h2.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size : cover;
+            opacity: 0.9;
+    }
     </style>
 </head>
 
 <body>
-   <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow" id="navbar">
+   <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow text-white" id="navbar">
         <img src="img/logo.png" alt="logo">
         <h5 class="my-0 mr-md-auto font-weight-normal">Hasta Takip Programı</h5>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="homepage.php">Anasayfa</a>
+            <a class="p-2 text-white" href="homepage.php">Anasayfa</a>
         </nav>
         
     </div>
@@ -68,7 +78,7 @@ if($_POST){
                     </div>
                     <div class="div">
                         <h5></h5>
-                        <input type="text" name="kullaniciad" class="input">
+                        <input type="text" name="kullaniciad" class="input" required="" autocomplete="off">
                     </div>
                 </div>
                  <br>
@@ -79,7 +89,7 @@ if($_POST){
                     </div>
                     <div class="div">
                         <h5></h5>
-                        <input type="password" name="sifre" class="input">
+                        <input type="password" name="sifre" class="input" required="" autocomplete="off">
                     </div>
                 </div>
 

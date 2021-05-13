@@ -10,7 +10,23 @@
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 
+    <style>
+      #navbar{
+         background-color: #000;
+         opacity:0.9;
+    }  
+    .blog-footer{
+    margin-top: 200px;
+    background-color:#000;
+    opacity: 0.9;
+    height: 220px;
+    }
+    #jumbotron{
+        background-color:#000;
+        opacity:0.8;
+    }
 
+    </style>
 </head>
 
 
@@ -18,17 +34,19 @@
    
     <main>
        
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top " id="navbar">
+      <a href=""><img src="img/logo.png" alt="doktorlogo"></a>
+      <a class="navbar-brand" href="#">Hasta Takip Programı</a>
+      
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <a class="btn btn-success my-2 my-sm-0" type="submit" href="login.php">Sisteme Giriş</a>
+        </form>
+      </div>
+    </nav>
         
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow" id="navbar">
-            <img src="img/logo.png" alt="logo">
-            <h5 class="my-0 mr-md-auto font-weight-normal">Hasta Takip Programı</h5>
-            <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2 text-dark" href="#">Anasayfa</a>
-
-
-            </nav>
-            <a class="btn btn-outline-primary" href="login.php">Giriş Yap</a>
-        </div>
 
         <div class="container py-4">
 
@@ -48,16 +66,16 @@
                     <img src="img/dh3.jpg" width="%100" height="400px" alt="Ücüncü">
                 </div>
             </div>
-            <div class="jumbotron p-3 p-md-5 text-black text-center" id="jumbotron">
+            <div class="jumbotron p-3 p-md-5 text-black text-center text-white" id="jumbotron">
                 <div class="col-md-12">
                     <h1 class="display-5 font-italic">Hasta Takip Programına Hoşgeldiniz</h1>
-                    <p class="lead my-3">Türkiye'nin en profesyonel online klinik yönetim yazılımı ile tanışın!</p>
+                    <p class="lead my-3"><b>Türkiye'nin en profesyonel online klinik yönetim yazılımı ile tanışın!</b></p>
                 </div>
                 <div class="col-md-12">
                     <p>
-                        Klinik yönetim sistemlerinde ihtiyacınız olan herşeyi bir çatı altında topladık. Siz hastalarınızla ilgilenin, gerisini Hasta Takip'e bırakın.</p>
+                    Klinik yönetim sistemlerinde ihtiyacınız olan herşeyi bir çatı altında topladık. Siz hastalarınızla ilgilenin, gerisini Hasta Takip'e bırakın.</p>
                     <p>
-                        Yönetim, takip süreçlerinizde verimliliğinizi arttırmak için; en yeni teknolojileri en yüksek performans ve en üst düzey güvenlik prensibi çerçevesinde uyguluyoruz.</p>
+                      Yönetim, takip süreçlerinizde verimliliğinizi arttırmak için; en yeni teknolojileri en yüksek performans ve en üst düzey güvenlik prensibi çerçevesinde uyguluyoruz.</p>
 
                 </div>
             </div>
@@ -133,7 +151,7 @@
                 </div><!-- /.col-lg-4 -->
             </div>
         </div>
-        <footer class="blog-footer text-center">
+        <footer class="blog-footer text-center text-white">
            <br>
            <br>
             <p><img src="img/footerlogo.png" alt="footerlogo"> Hasta Takip Programı</p>
@@ -166,6 +184,7 @@
             })
 
         </script>
+        
     </main>
 </body>
 

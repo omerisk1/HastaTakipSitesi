@@ -11,6 +11,7 @@
 
  .owl-carousel {
      margin-top: 100px;
+     
  }
 
  .pricing-header {
@@ -20,6 +21,7 @@
  .pricing-header p {
 
      margin-top: 50px;
+
  }
 .row{
     margin-top: 100px;
@@ -43,9 +45,7 @@
   
 
 }
-#jumbotron{
-    background-color: #eceff4;
-}
+
 #h-100{
     margin-top: 100px;
 }
@@ -57,15 +57,12 @@
     margin-top: 100px;
 }
 .blog-footer{
-    margin-top: 50px;
-    background-color:#dcdfe4;
+    margin-top: 220px;
+    background-color:#000;
     opacity: 0.7;
     height: 230px;
-   
-}
-#navbar{
-    background-color: #eceff4;
-}
+
+    }
 
 
 
